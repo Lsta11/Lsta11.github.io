@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>茶陵周星驰</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-03-20T11:31:55.151Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>创 建 第 一 篇 博 客 的 过 程</title>
+    <link href="http://example.com/2022/03/20/%E5%88%9B-%E5%BB%BA-%E7%AC%AC-%E4%B8%80-%E7%AF%87-%E5%8D%9A-%E5%AE%A2-%E7%9A%84-%E8%BF%87-%E7%A8%8B/"/>
+    <id>http://example.com/2022/03/20/%E5%88%9B-%E5%BB%BA-%E7%AC%AC-%E4%B8%80-%E7%AF%87-%E5%8D%9A-%E5%AE%A2-%E7%9A%84-%E8%BF%87-%E7%A8%8B/</id>
+    <published>2022-03-20T11:31:14.000Z</published>
+    <updated>2022-03-20T11:31:55.151Z</updated>
+    
+    <content type="html"><![CDATA[<p>create blog</p><p>首先建立一个存放博客文件和网站文件的文件夹<br>mkdir blog</p><p>然后 下载了 nodejs 和 hexo 后</p><p>初始化hexo–在blog中自动创建出一个网页</p><p>hexo init</p><p>然后 cnpm install –save hexo-deployer-git 下载git插件在blog中</p><hr><p>（※）配置文件  将deploy下的文件配置为</p><p>type: ‘git’<br>repo: <a href="mailto:&#103;&#105;&#116;&#64;&#x67;&#x69;&#116;&#x68;&#x75;&#x62;&#46;&#99;&#x6f;&#x6d;">&#103;&#105;&#116;&#64;&#x67;&#x69;&#116;&#x68;&#x75;&#x62;&#46;&#99;&#x6f;&#x6d;</a>:Lsta11&#x2F;Lsta11.github.io.git(密钥法)<br>branch: main</p><p>然后生成ssh key 详情见<a href="https://blog.csdn.net/greenovia/article/details/60576985">https://blog.csdn.net/greenovia/article/details/60576985</a></p><p>注意： 在hexo d前需要设置Git的user name 和 user email<br>$ git config –global user.name “github的id”<br>$ git config –global user.email “github的邮箱”</p><p>然后 hexo clean hexo g hexo d</p><hr><p>完成</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;create blog&lt;/p&gt;
+&lt;p&gt;首先建立一个存放博客文件和网站文件的文件夹&lt;br&gt;mkdir blog&lt;/p&gt;
+&lt;p&gt;然后 下载了 nodejs 和 hexo 后&lt;/p&gt;
+&lt;p&gt;初始化hexo–在blog中自动创建出一个网页&lt;/p&gt;
+&lt;p&gt;hexo init&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇博客</title>
+    <link href="http://example.com/2022/03/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://example.com/2022/03/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <published>2022-03-20T11:10:32.000Z</published>
+    <updated>2022-03-20T11:14:36.790Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>2022&#x2F;3&#x2F;20 19：11<br>最后一次调试<br>用时接近8小时<br>http方法一直失败，最后用ssh密钥方法成功将blog部署到远端</p><hr><h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>现在进行博客修改，明天可以优化主题</p><hr><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>关键方法来源  <a href="https://blog.csdn.net/greenovia/article/details/60576985">https://blog.csdn.net/greenovia/article/details/60576985</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;第一章&quot;&gt;&lt;a href=&quot;#第一章&quot; class=&quot;headerlink&quot; title=&quot;第一章&quot;&gt;&lt;/a&gt;第一章&lt;/h2&gt;&lt;p&gt;2022&amp;#x2F;3&amp;#x2F;20 19：11&lt;br&gt;最后一次调试&lt;br&gt;用时接近8小时&lt;br&gt;http方法一直失败，最后用ss</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2022/03/20/%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://example.com/2022/03/20/%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2022-03-20T10:56:02.931Z</published>
+    <updated>2022-03-20T11:27:28.829Z</updated>
+    
+    <content type="html"><![CDATA[<p>create blog</p><p>首先建立一个存放博客文件和网站文件的文件夹<br>mkdir blog</p><p>然后 下载了 nodejs 和 hexo 后</p><p>初始化hexo–在blog中自动创建出一个网页</p><p>hexo init</p><p>然后 cnpm install –save hexo-deployer-git 下载git插件在blog中</p><p>（※）配置文件  将deploy下的文件配置为</p><p>type: ‘git’<br>repo: <a href="mailto:&#x67;&#105;&#116;&#64;&#x67;&#105;&#x74;&#104;&#x75;&#x62;&#x2e;&#x63;&#111;&#x6d;">&#x67;&#105;&#116;&#64;&#x67;&#105;&#x74;&#104;&#x75;&#x62;&#x2e;&#x63;&#111;&#x6d;</a>:Lsta11&#x2F;Lsta11.github.io.git(密钥法)<br>branch: main</p><p>然后生成ssh key 详情见<a href="https://blog.csdn.net/greenovia/article/details/60576985">https://blog.csdn.net/greenovia/article/details/60576985</a></p><p>注意： 在hexo d前需要设置Git的user name 和 user email<br>$ git config –global user.name “github的id”<br>$ git config –global user.email “github的邮箱”</p><p>然后 hexo clean hexo g hexo d</p><p>完成</p><h2 id="下面是hexo的操作指令，也可以直接前往source文件进行操作"><a href="#下面是hexo的操作指令，也可以直接前往source文件进行操作" class="headerlink" title="下面是hexo的操作指令，也可以直接前往source文件进行操作"></a>下面是hexo的操作指令，也可以直接前往source文件进行操作</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;create blog&lt;/p&gt;
+&lt;p&gt;首先建立一个存放博客文件和网站文件的文件夹&lt;br&gt;mkdir blog&lt;/p&gt;
+&lt;p&gt;然后 下载了 nodejs 和 hexo 后&lt;/p&gt;
+&lt;p&gt;初始化hexo–在blog中自动创建出一个网页&lt;/p&gt;
+&lt;p&gt;hexo init&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
