@@ -6,6 +6,6 @@ http://example.com/categories/index.html
 http://example.com/link/index.html
 http://example.com/
 http://example.com/tags/link/
-http://example.com/categories/Java/
 http://example.com/categories/%E6%97%A5%E5%B8%B8/
+http://example.com/categories/Java/
 http://example.com/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/
